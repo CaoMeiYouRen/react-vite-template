@@ -13,12 +13,12 @@
   },
   "dependencies": {
     "eslint-plugin-react": "^7.37.5",
-    "react": "^19.2.6",
+    "react": "^19.2.7",
     "react-dom": "^19.2.6"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^21.0.2",
-    "@types/react": "^19.2.15",
+    "@types/react": "^19.2.16",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.2",
     "cross-env": "^10.1.0",
