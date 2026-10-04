@@ -45,7 +45,7 @@ importers:
         version: 19.3.0(@types/react@19.3.0)
       '@vitejs/plugin-react':
         specifier: ^6.1.1
-        version: 6.1.1(vite@8.3.1(sass@1.105.0))
+        version: 6.1.1(vite@8.3.2(sass@1.105.0))
       cross-env:
         specifier: ^10.1.0
         version: 10.1.0
@@ -68,8 +68,8 @@ importers:
         specifier: ^6.0.3
         version: 6.0.3
       vite:
-        specifier: ^8.3.1
-        version: 8.3.1(sass@1.105.0)
+        specifier: ^8.3.2
+        version: 8.3.2(sass@1.105.0)
 
 packages:
 
@@ -1680,8 +1680,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vite@8.3.1:
-    resolution: {integrity: sha512-/bvH9E9tmCXRGp2uXY3WbOldqpTwFkbha/8ANaEQ6VkxhH60KyqLwgZq6lG2y+4uT55x9+9eUHMpQ7uGnOCKjA==}
+  vite@8.3.2:
+    resolution: {integrity: sha512-SQr1x6W5vVSbROg7vsyXIaxK9b0G7zsT68acdWWRmnBUsgDieLCRG+Rep9WdZgcposvv/GSnr4GUUBqB3vXq6w==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -2220,10 +2220,10 @@ snapshots:
       '@typescript-eslint/types': 8.62.0
       eslint-visitor-keys: 5.0.1
 
-  '@vitejs/plugin-react@6.1.1(vite@8.3.1(sass@1.105.0))':
+  '@vitejs/plugin-react@6.1.1(vite@8.3.2(sass@1.105.0))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.3.1(sass@1.105.0)
+      vite: 8.3.2(sass@1.105.0)
 
   acorn-jsx@5.3.2(acorn@8.15.0):
     dependencies:
@@ -3669,7 +3669,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vite@8.3.1(sass@1.105.0):
+  vite@8.3.2(sass@1.105.0):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
